@@ -12,7 +12,7 @@ from langchain.llms.openai import OpenAI
 from langchain.agents import AgentExecutor
 
 
-os.environ['OPENAI_API_KEY'] = "org-CVfNMe4AFK4VbHuZIaJndtZK"
+os.environ['OPENAI_API_KEY'] = "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"
 
 #connected sqlite database
 db = SQLDatabase.from_uri("sqlite:///./swbe_data.db")
